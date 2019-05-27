@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/optionsAdminGroup"
+        android:checkableBehavior="single">
+        <!--android:icon="@drawable/ic_menu_manage"-->
+        <item
+            android:id="@+id/accountsItem"
+            android:title="@string/nalozi" />
+        <item
+            android:id="@+id/infoItem"
+            android:title="@string/informacije" />
+        <item
+            android:id="@+id/orderOfClassItem"
+            android:title="@string/raspored_odeljenja" />
+        <item
+            android:id="@+id/professorItem"
+            android:title="@string/nastavnici" />
+        <item
+            android:id="@+id/headItem"
+            android:title="@string/razredni" />
+        <item
+            android:id="@+id/orderOfSubjectsItem"
+            android:title="@string/raspored_casova" />
+    </group>
+
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="Share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>

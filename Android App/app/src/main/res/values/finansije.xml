@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="finansije">
+        <item>Upis u godinu 4000,00 rsd</item>
+        <item>Skolarina 3000,00 rsd</item>
+        <item>Djacki dinar 500,00 rsd</item>
+    </string-array>
+</resources>
